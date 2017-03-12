@@ -1,9 +1,6 @@
 # webc
 Web Costain
-     PAGINA WEB GRUPO COSTAIN, SITIO CORPORATIVO DE COSTAIN C.A.
-     FEBRERO 2017 
-     PABLO COSTALES
-     VERSION 1.0
-     DESCRIPCION; SITIO EN UNA SOLA PAGINA CON SECCIONES DE INFORMACION
-     Y CONTENIDO DE INTERES PARA CAPTAR CLIENTES
+Página web grupo costain, sitio corporativo de costain c.a.- febrero 2017 - versión 1.0
+Descripción; sitio en una sola página con secciones de información y contenido de interés para captar clientes
+
      
