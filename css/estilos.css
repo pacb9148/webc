@@ -4,11 +4,11 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #111111; }
+  color: #101617; }
 
 .bienvenidos {
   background: url("../images/fondo-encabezado.jpg") no-repeat center top;
-  color: #fff;
+  color: azure;
   background-size: cover;
   background-attachment: fixed !important;
   height: 100vh;
@@ -23,14 +23,14 @@ body {
           flex-direction: column; }
 
 .encabezado {
-  background: #111111;
-  color: #fff;
+  background: #101617;
+  color: azure;
   padding: .5rem 0;
   -webkit-transition: all .5s ease;
           transition: all .5s ease; }
 
 .encabezado.fondo-menu {
-  background: #064e4e;
+  background: #09282F;
   padding: 1rem 0; }
 
 .encabezado .container {
@@ -47,7 +47,7 @@ body {
           flex-wrap: wrap; }
 
 .encabezado .logo img {
-  width: 150px;
+  width: 200px;
   height: auto; }
 
 /*Estilos para el boton: buscar y menu*/
@@ -58,7 +58,7 @@ body {
   margin: 0;
   padding: 0 .5rem;
   background: transparent;
-  color: #fff; }
+  color: azure; }
 
 .boton-buscar:focus,
 .boton-menu:focus {
@@ -99,8 +99,8 @@ body {
           flex: 1 1 auto;
   border: 0;
   border-radius: 0 5px 5px 0;
-  background: #12AFAF;
-  color: #fff;
+  background: #3D6B76;
+  color: azure;
   -webkit-box-flex: 0;
   -webkit-flex: 0 1 auto;
       -ms-flex: 0 1 auto;
@@ -122,14 +122,14 @@ body {
   display: block;
   padding: .8rem 0;
   text-align: center;
-  color: #fff;
+  color: azure;
   text-transform: uppercase;
   border-top: 1px solid #8c8888;
   text-decoration: none; }
 
 #menu-principal ul a:hover,
 #menu-principal ul li.active a {
-  color: #12AFAF; }
+  color: #3D6B76; }
 
 .texto-encabezado {
   -webkit-box-flex: 1;
@@ -146,14 +146,14 @@ body {
           align-items: center; }
 
 .texto-encabezado .display-4 {
-  margin-top: 4rem; }
+  margin-top: 5.5rem; }
 
 .texto-encabezado .btn-primary {
   margin-top: 1rem; }
 
 .btn-primary {
-  color: #fff;
-  background-color: #12AFAF;
+  color: azure;
+  background-color: #3D6B76;
   border-color: transparent;
   -webkit-transition: all .5s ease;
           transition: all .5s ease; }
@@ -161,12 +161,12 @@ body {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:hover {
-  background-color: #009500;
+  background-color: #3D6B76;
   border-color: transparent; }
 
 .flecha-bajar a {
   display: inline-block;
-  color: #fff;
+  color: azure;
   font-size: 4rem;
   -webkit-animation: flecha-animada 2s ease-in-out infinite;
           animation: flecha-animada 2s ease-in-out infinite; }
@@ -196,8 +196,8 @@ body {
 SECCION AGENCIA
 ------------------------------*/
 .agencia {
-  background: #12AFAF;
-  color: #fff; }
+  background: #3D6B76;
+  color: azure; }
 
 .agencia img {
   width: 80%;
@@ -208,7 +208,7 @@ SECCION AGENCIA
 SECCION TU MEJOR ELECCI├ôN
 ----------------------------*/
 .tu-mejor-eleccion h2 span {
-  color: #12AFAF; }
+  color: #3D6B76; }
 
 .tu-mejor-eleccion ul,
 .tu-mejor-eleccion ul li {
@@ -216,12 +216,12 @@ SECCION TU MEJOR ELECCI├ôN
 
 .tu-mejor-eleccion ul li .fa {
   font-size: 2.3rem;
-  background: #009500;
+  background: #3D6B76;
   border-radius: 50%;
   width: 4.7rem;
   height: 4.7rem;
   line-height: 4.7rem;
-  color: #fff; }
+  color: azure; }
 
 .tu-mejor-eleccion ul li .contenedor-eleccion h4 {
   font-size: 1.2rem;
@@ -238,7 +238,7 @@ SECCION SERVICIOS
   background: url("../images/fondo-servicios.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed !important;
-  color: #fff; }
+  color: azure; }
 
 .servicios article {
   display: -webkit-box;
@@ -268,7 +268,7 @@ SECCION SERVICIOS
           flex: 1 1 auto; }
 
 .servicios h3 a {
-  color: #fff;
+  color: azure;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -297,7 +297,7 @@ SECCION SERVICIOS
 .servicios h3 a:hover::after {
   left: -.5rem;
   opacity: 1;
-  color: #12AFAF; }
+  color: #B7D1D7; }
 
 /*---------------------------------
 SECCION ├ÜLTIMOS PROYECTOS
@@ -330,20 +330,20 @@ SECCION ├ÜLTIMOS PROYECTOS
 .ultimos-proyectos .owl-next {
   font-size: 3rem;
   margin: 0 .5rem;
-  color: #12AFAF;
+  color: #3D6B76;
   -webkit-transition: all .5s ease;
           transition: all .5s ease; }
 
 .ultimos-proyectos .owl-prev:hover,
 .ultimos-proyectos .owl-next:hover {
-  color: #009500; }
+  color: #3D6B76; }
 
 /*----------------------------------------
 SECCION PIE DE PAGINA
 -----------------------------------------*/
 .piedepagina {
-  background: #111111;
-  color: #fff;
+  background: #09282F;
+  color: azure;
   text-align: center;
   font-size: .9rem; }
 
@@ -361,7 +361,7 @@ SECCION PIE DE PAGINA
   padding: 0; }
 
 .piedepagina .redes-sociales a {
-  color: #fff;
+  color: azure;
   font-size: 2rem;
   margin: 0 .5rem;
   opacity: .7;
@@ -376,7 +376,7 @@ SECCION PIE DE PAGINA
   bottom: 1rem;
   right: 1rem;
   font-size: 3rem;
-  color: #12afaf;
+  color: #B7D1D7;
   text-decoration: none;
   z-index: 99999;
   line-height: 0;
@@ -388,7 +388,7 @@ SECCION PIE DE PAGINA
 .ir-arriba:focus {
   outline: 0;
   text-decoration: none;
-  color: #fff; }
+  color: azure; }
 
 /*-------------------------------------------
 ESTILOS PAGINA NOSOTROS
@@ -397,11 +397,11 @@ ESTILOS PAGINA NOSOTROS
   height: 50vh; }
 
 .paginas-internas .ruta {
-  background: #12AFAF;
-  color: #fff; }
+  background: #3D6B76;
+  color: azure; }
 
 .paginas-internas .ruta a {
-  color: #fff;
+  color: azure;
   text-decoration: underline; }
 
 .paginas-internas .ruta a:hover {
@@ -411,8 +411,8 @@ ESTILOS PAGINA NOSOTROS
   font-size: 1.2rem; }
 
 .paginas-internas .panel .panel-heading a {
-  background: #12AFAF;
-  color: #fff;
+  background: #3D6B76;
+  color: azure;
   display: block;
   padding: 1rem;
   border-radius: 5px;
@@ -421,26 +421,26 @@ ESTILOS PAGINA NOSOTROS
           transition: all .5s ease; }
 
 .paginas-internas .panel .panel-heading a:hover {
-  background: #009500;
-  color: #fff; }
+  background: #3D6B76;
+  color: azure; }
 
 /*-------------------------------------------
 ESTILOS PAGINA SERVICIOS
 --------------------------------------------*/
 .paginas-internas .lista-servicios {
-  background: #009500; }
+  background: #3D6B76; }
 
 .paginas-internas .lista-servicios .item-servicios {
-  background: #ffffff;
+  background: azure;
   text-align: center;
-  border: 5px solid #057705;
+  border: 5px solid #3D6B76;
   border-radius: 5px;
   margin-bottom: 1rem;
   padding: 1rem; }
 
 .paginas-internas .lista-servicios .item-servicios .fa {
   font-size: 6rem;
-  color: #12AFAF;
+  color: #3D6B76;
   margin-bottom: 1rem;
   -webkit-transition: all 1s ease;
           transition: all 1s ease; }
@@ -486,7 +486,7 @@ EMPIEZAN LAS MEDIAS QUERIES
 
   #menu-principal ul li.active a,
   #menu-principal ul li a:hover {
-    color: #12AFAF;
+    color: #B7D1D7;
     border-bottom: 4px solid; }
 
   .boton-buscar {
@@ -610,7 +610,7 @@ EMPIEZAN LAS MEDIAS QUERIES
             transform: rotateY(360deg);
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
-    background: #12AFAF; }
+    background: #B7D1D7; }
 
   .contenedor-eleccion {
     -webkit-box-flex: 1;
